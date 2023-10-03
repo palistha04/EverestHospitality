@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.buttonLinked{
+  @apply h-9 border-2 py-1 px-3 rounded-md shadow-md;
+}
+
+.tableHeading{
+  @apply text-center text-xs font-semibold font-poppins;
+}
+
+.tableData{
+  @apply text-center text-xs font-medium font-inter text-gray-900;
+}
+
+.tableData1{
+  @apply text-left text-xs font-medium font-poppins text-gray-900;
+}
